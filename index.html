@@ -6,8 +6,8 @@
     <title>Unity Web Player | CardsMLBB</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=100% height=100% left=0% top=0% tabindex="-1" style="width: 1080px; height: 1920px; background: #231F20"></canvas>
-    <script src="Build/Релиз 0.0.1.loader.js"></script>
+    <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1" style="width: 1080px; height: 1920px; background: #CCCCCC"></canvas>
+    <script src="Build/Релиз 0.0.1 экран.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,11 +26,11 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Релиз 0.0.1.data",
-        frameworkUrl: "Build/Релиз 0.0.1.framework.js",
-        codeUrl: "Build/Релиз 0.0.1.wasm",
+        dataUrl: "Build/Релиз 0.0.1 экран.data",
+        frameworkUrl: "Build/Релиз 0.0.1 экран.framework.js",
+        codeUrl: "Build/Релиз 0.0.1 экран.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "morall inc.",
         productName: "CardsMLBB",
         productVersion: "0.0.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
